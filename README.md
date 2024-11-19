@@ -51,7 +51,7 @@ Clearly label primary and foreign keys and relationships between entities.
 <br/>
 
 ## Part 2: Defining the Database Schema
-**2.1).** Write SQL statements to define the database schema, including:.<br/>
+**2.1).** Write SQL statements to define the database schema, including:  <br/><br/>
   - Users table.
   - Bills table with foreign key reference to Users.
   - Payments table with foreign key reference to Bills.
@@ -59,27 +59,27 @@ Clearly label primary and foreign keys and relationships between entities.
 <br/>
 
 ## Part 3: Comparison Operators
-**3.1).** Populate the Users table with at least five records. Include:
+**3.1).** Populate the Users table with at least five records. Include:  <br/><br/>
       - UserID, Name, Email, and Phone.
       <br/>
-**3.2) .** Populate the Bills table with at least ten records. Include:
+**3.2) .** Populate the Bills table with at least ten records. Include:  <br/><br/>
       - BillID, UserID, Amount, DueDate, Category (e.g., Utilities, Subscriptions), and Status (e.g., Paid, Unpaid).
       <br/>
-**3.3) .** Populate the Payments table with at least five records. Include:
+**3.3) .** Populate the Payments table with at least five records. Include:  <br/><br/>
       - PaymentID, BillID, PaymentDate, and PaymentAmount. Ensure valid BillID references.
       <br/>
 
 ## Part 4: Writing SQL Queries
-**4.1).**  Retrieve all unpaid bills from the Bills table. Display columns:
+**4.1).**  Retrieve all unpaid bills from the Bills table. Display columns: <br/><br/>
       - BillID, Amount, DueDate, and Status.
       <br/>
-**4.2).** Group bills by category in the Bills table and calculate the total amount for each category. Display:
+**4.2).** Group bills by category in the Bills table and calculate the total amount for each category. Display: <br/><br/>
       - Category, TotalAmount.
       <br/>
-**4.3).** Calculate the total unpaid amount due for the current month. Display:
+**4.3).** Calculate the total unpaid amount due for the current month. Display: <br/><br/>
       - TotalDue.
       <br/>
-**4.4).** Retrieve the payment history for a user with UserID = 1. Display:
+**4.4).** Retrieve the payment history for a user with UserID = 1. Display: <br/><br/>
       - PaymentID, BillID, PaymentDate, and PaymentAmount.
       <br/>  
       
@@ -92,7 +92,7 @@ Clearly label primary and foreign keys and relationships between entities.
 
 ## Bonus Challenge (optional)
 Write an SQL query to count the number of unpaid bills for each category.
-Display the following columns:
+Display the following columns: <br/><br/>
   - Category
   - UnpaidBillsCount (number of unpaid bills per category)
 
