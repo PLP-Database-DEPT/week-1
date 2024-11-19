@@ -63,11 +63,11 @@ Clearly label primary and foreign keys and relationships between entities.
    - UserID, Name, Email, and Phone.
 
      <br/> <br/>
-**3.2) .** Populate the Bills table with at least ten records. Include:  <br/>
+**3.2).** Populate the Bills table with at least ten records. Include:  <br/>
    - BillID, UserID, Amount, DueDate, Category (e.g., Utilities, Subscriptions), and Status (e.g., Paid, Unpaid).
 
       <br/> <br/>
-**3.3) .** Populate the Payments table with at least five records. Include:  <br/>
+**3.3).** Populate the Payments table with at least five records. Include:  <br/>
    - PaymentID, BillID, PaymentDate, and PaymentAmount. Ensure valid BillID references.
 
       <br/> <br/>
