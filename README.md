@@ -1,23 +1,25 @@
-# Essential Data Retrieval & Filtering (Focus on Project Data)
-This week, we'll dive deeper into your project by mastering essential techniques for retrieving and manipulating your data! We’ll explore the SELECT statement to extract specific information and leverage the power of filtering with the WHERE clause. Finally, we’ll learn to organize our results using ORDER BY.
+# Assignment: Bills Management System
+As part of your learning journey into databases and data models, you will collaboratively design and implement a database for a Bills Management System. This system will help users track and manage their bills, including due dates, payment history, and bill categories. The assignment focuses on conceptualizing, designing, and applying relational data modeling principles.
 
 <br/>
 
 ## Learning Objectives:
-- Utilize the SELECT statement to retrieve data from your project database.
-- Apply wildcards (%) and comparison operators for targeted data retrieval.
-- Employ the WHERE clause with logical operators (AND, OR, NOT) to filter data effectively.
-- Organize retrieved data using the ORDER BY clause.
+- Create an Entity-Relationship Diagram for a database.
+- Define database schemas using SQL.
+- Populate tables with sample data using SQL INSERT statements.
+- Write SQL queries to retrieve and analyze data effectively.
+- Demonstrate the working database with practical queries.
+
 
 <br/>
 
 ### What you'll need:
 - Access to a computer with internet access
 - A code editor (e.g., Visual Studio Code)
-- Access to a dataset. See the database script in this repository titled `hospital_db.sql`.
+- Familiarity with SQL commands, data modeling, and relational database principles..
 
 ### Scenario:
-Imagine you’ve diligently collected and stored data using the database you designed last week. Now, it’s time to analyze that data and gain insights!
+You are tasked with creating a Bills Management System database. You will design its structure, populate it with sample data, and write queries to interact with the system. Your output will showcase your understanding of database concepts and SQL.
 
 <br/>
 
@@ -37,45 +39,54 @@ SELECT * FROM table_two;
 
 <br/>
 
-## Part 1: Basic Data Retrieval
-**1.1).** Write a query to retrieve the ```first_name```, ```last_name``` and ```date_of_birth``` of all patients.<br/><br/>
-**1.2).** Write a query to retrieve the ```provider_id```, ```first_name``` and ```provider_specialty``` from the providers table.
+## Part 1: Creating an Entity-Relationship Diagram
+**1.1).** Design an ER diagram for a Bills Management System. Include key entities: <br/><br/>
+  - Users (Attributes: UserID, Name, Email, Phone).
+  - Bills (Attributes: BillID, UserID, Amount, DueDate, Category, Status).
+  - Payments (Attributes: PaymentID, BillID, PaymentDate, PaymentAmount). <br/>
+
+Clearly label primary and foreign keys and relationships between entities.
+
 
 <br/>
 
-## Part 2: Pattern-Based Filtering
-**2.1).** Write a query to retrieve all patients whose first names start with "Ab".<br/>
-**2.2).** Write a query to retrieve all providers whose specialties end with the letter "y".
+## Part 2: Defining the Database Schema
+**2.1).** Write SQL statements to define the database schema, including:.<br/>
+  - Users table.
+  - Bills table with foreign key reference to Users.
+  - Payments table with foreign key reference to Bills.
 
 <br/>
 
 ## Part 3: Comparison Operators
-**3.1).** Write a query to find all patients born after 1st January 1980.<br/>
-**3.2).**<br/> Write a query to retrieve visits where the acuity level is 2 or higher.
+**3.1).** Populate the Users table with at least five records. Include:
+      - UserID, Name, Email, and Phone.<br/>
+**3.2).**<br/> Populate the Bills table with at least ten records. Include:
+      - BillID, UserID, Amount, DueDate, Category (e.g., Utilities, Subscriptions), and Status (e.g., Paid, Unpaid).<br/>
+**3.3).**<br/> Populate the Payments table with at least five records. Include:
+      - PaymentID, BillID, PaymentDate, and PaymentAmount. Ensure valid BillID references.<br/>
 
-<br/>
+## Part 4: Writing SQL Queries
+**4.1).** Retrieve all unpaid bills from the Bills table. Display columns:
+      - BillID, Amount, DueDate, and Status.<br/>
+**4.2).**  Group bills by category in the Bills table and calculate the total amount for each category. Display:
+      - Category, TotalAmount.<br/>
+**4.3).** Calculate the total unpaid amount due for the current month. Display:
+      - TotalDue.<br/>
+**4.4).** Retrieve the payment history for a user with UserID = 1. Display:
+      - PaymentID, BillID, PaymentDate, and PaymentAmount.<br/>  
+      
+## Part 5: Demonstrating the Database
+**5.1).** Create a demo of your database in MySQL Workbench or SQLite..<br/>
 
-## Part 4: WHERE Clause with Logical Operators
-**4.1).** Write a query to find patients who speak Spanish.<br/>
-**4.2).** Write a query to retrieve visits where the reason is "Migraine" and the disposition is "Admitted".<br/>
-**4.3).** Write a query to find patients born between 1975 and 1980.
-
-<br/>
-
-## Part 5: Sorting Data
-**5.1).** Write a query to retrieve patient names and sort them in alphabetical order by last name.<br/>
-**5.2).** Write a query to list all visits sorted by the date of the visit, starting from the most recent.
-
-<br/>
-
-## Part 6: Advanced Filtering
-**6.1).** Write a query to retrieve all admissions where the primary diagnosis is "Stroke" and the discharge disposition is "Home".<br/>
-**6.2).** Write a query to find providers who joined after 1995 and specialize in either Pediatrics or Cardiology.
 
 <br/>
 
 ## Bonus Challenge (optional)
-Write a query that lists all discharges where the patient was discharged home and the discharge date is within the first week of March 2018.
+Write an SQL query to count the number of unpaid bills for each category.
+Display the following columns:
+  - Category
+  - UnpaidBillsCount (number of unpaid bills per category)
 
 <br/><br/>
 ## NOTE: Do not fork this repository
