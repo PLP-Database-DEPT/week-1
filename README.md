@@ -60,27 +60,27 @@ Clearly label primary and foreign keys and relationships between entities.
 
 ## Part 3: Comparison Operators
 **3.1).** Populate the Users table with at least five records. Include:  <br/>
-       - UserID, Name, Email, and Phone.
+   - UserID, Name, Email, and Phone.
       <br/>
 **3.2) .** Populate the Bills table with at least ten records. Include:  <br/>
-       -  BillID, UserID, Amount, DueDate, Category (e.g., Utilities, Subscriptions), and Status (e.g., Paid, Unpaid).
+   - BillID, UserID, Amount, DueDate, Category (e.g., Utilities, Subscriptions), and Status (e.g., Paid, Unpaid).
       <br/>
 **3.3) .** Populate the Payments table with at least five records. Include:  <br/>
-       - PaymentID, BillID, PaymentDate, and PaymentAmount. Ensure valid BillID references.
+   - PaymentID, BillID, PaymentDate, and PaymentAmount. Ensure valid BillID references.
       <br/>
 
 ## Part 4: Writing SQL Queries
 **4.1).**  Retrieve all unpaid bills from the Bills table. Display columns: <br/>
-       - BillID, Amount, DueDate, and Status.
+   - BillID, Amount, DueDate, and Status.
       <br/>
 **4.2).** Group bills by category in the Bills table and calculate the total amount for each category. Display: <br/>
-       - Category, TotalAmount.
+    - Category, TotalAmount.
       <br/>
 **4.3).** Calculate the total unpaid amount due for the current month. Display: <br/>
-       -  TotalDue.
+    - TotalDue.
       <br/>
 **4.4).** Retrieve the payment history for a user with UserID = 1. Display: <br/>
-       - PaymentID, BillID, PaymentDate, and PaymentAmount.
+    - PaymentID, BillID, PaymentDate, and PaymentAmount.
       <br/>  
       
 ## Part 5: Demonstrating the Database
