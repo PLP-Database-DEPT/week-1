@@ -75,19 +75,20 @@ Clearly label primary and foreign keys and relationships between entities.
 ## Part 4: Writing SQL Queries
 **4.1).**  Retrieve all unpaid bills from the Bills table. Display columns: <br/>
    - BillID, Amount, DueDate, and Status.
-      <br/> <br/>
+      <br/>
       
 **4.2).** Group bills by category in the Bills table and calculate the total amount for each category. Display: <br/>
-    - Category, TotalAmount.
-      <br/> <br/>
+  -  Category, TotalAmount.
+      <br/> 
       
 **4.3).** Calculate the total unpaid amount due for the current month. Display: <br/>
-    - TotalDue.
-      <br/> <br/>
+  -  TotalDue.
+      <br/> 
       
 **4.4).** Retrieve the payment history for a user with UserID = 1. Display: <br/>
-    - PaymentID, BillID, PaymentDate, and PaymentAmount.
-      <br/><br/>
+ -  PaymentID, BillID, PaymentDate, and PaymentAmount.
+      <br/>
+
       
 ## Part 5: Demonstrating the Database
 **5.1).** Create a demo of your database in MySQL Workbench or SQLite.
