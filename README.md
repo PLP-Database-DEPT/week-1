@@ -1,5 +1,5 @@
-Assignment: Bills Management System
-Introduction
+                                                                                                    Assignment: Bills Management System
+                                                                                                            Introduction
 As part of your learning journey into databases and data models, you will collaboratively design and implement a database for a Bills Management System. This system will help users track and manage their bills, including due dates, payment history, and bill categories. The assignment focuses on conceptualizing, designing, and applying relational data modeling principles.
 
 Learning Objectives
