@@ -19,11 +19,11 @@
 
 ## **Assignment Questions**
 
-1. What are some of the major DBMS products?
+1. State and Explain the components of a DBMS(Database Management System)
 
-2. What are the two major types of databases? Give 2 examples of each.
+2. What is a relational database? Give 4 examples.
 
-3. What are the 3 parts of SQL?
+3. State and Explain three classifications of SQL?
 
 4. What is the difference between a Primary Key and a Foreign Key?
 
@@ -31,7 +31,7 @@
 
 6. What are the advantages of relational databases?
 
-7. What are constraints in a relational database?
+7. State four types of data type used to store data in tables?
    
 8. What is the purpose of a database management system (DBMS)?  
 
