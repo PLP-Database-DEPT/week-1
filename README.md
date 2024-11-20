@@ -11,8 +11,8 @@
 
 
 ## *Submission Instructions*
-1. Answer every question below and put your responses in a file named `answers.readme`.
-2. Push your completed `answers.readme` file to your GitHub repository.
+1. Answer every question below and put your responses in a file named `answers.md`
+2. Push your completed `answers.md` file to your GitHub repository.
 3. Submit the GitHub link for review.
 
 ---
