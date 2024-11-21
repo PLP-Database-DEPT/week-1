@@ -4,7 +4,7 @@
 ## *What You'll Need*
 - A computer with internet access.
 - A code editor (e.g., Visual Studio Code).
-- MySQL Workbench or another SQL database environment.
+- MySQL Workbench or another SQL database environment. [Windows Installation](https://drive.google.com/drive/folders/1lHbc6zlJgyHVyzpf7xPwd_7uRR9-LYq4?usp=sharing)  [Unix/Linux](https://drive.google.com/file/d/1tCT1xq1Bl4t_nv-chu7HtlpdhzOJlv46/view?usp=sharing)
 
 ---
 
